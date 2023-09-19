@@ -592,7 +592,10 @@ h6,
 .logos:hover .logos-slide{
     animation-play-state:paused;
 }
-
+.btn:hover {
+    background-color: transparent;
+    color: #2775e1;
+  }
 .logos-slide{
     display: inline-block;
      animation: 40s slide infinite linear;
