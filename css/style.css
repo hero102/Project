@@ -245,217 +245,49 @@ h6,
 
 .service-item:hover p {
     margin-bottom: 25px !important;
-}@keyframes slide{
+}
+@keyframes slides{
     from{
         transform: translateX(0);
     }
     to{
         transform: translateX(-100%);
     }
- }
-.logos{
+  }
+  .media{
     overflow: hidden;
     padding: 25px 0;
     background: white;
     white-space: nowrap;
     position: relative;
-
-}
-.logos::before{
+  
+  }
+  .media::before{
     position: absolute;
     top: 0;
     left: 0;
     width: 250px;
     height: 100%;
-
-}
-.logos:hover .logos-slide{
-    animation-play-state:paused;
-}
-
-.logos-slide{
+  
+  }
+   
+  .media-slide{
     display: inline-block;
-     animation: 40s slide infinite linear;
-}
-.logos-slide img{
+     animation: slides ;
+  }
+  .media-slide img{
     
-    margin:0 40px ;
-}@keyframes slide{
-    from{
-        transform: translateX(0);
-    }
-    to{
-        transform: translateX(-100%);
-    }
- }
-.logos{
-    overflow: hidden;
-    padding: 25px 0;
-    background: white;
-    white-space: nowrap;
-    position: relative;
-
+    margin:0 80px ;
 }
-.logos::before{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 250px;
-    height: 100%;
-
-}
-.logos:hover .logos-slide{
-    animation-play-state:paused;
+.map-logo img{
+    margin:0 80px ;
+    margin-bottom: 10%;
 }
 
-.logos-slide{
-    display: inline-block;
-     animation: 40s slide infinite linear;
-}
-.logos-slide img{
-    
-    margin:0 40px ;
-}@keyframes slide{
-    from{
-        transform: translateX(0);
-    }
-    to{
-        transform: translateX(-100%);
-    }
- }
-.logos{
-    overflow: hidden;
-    padding: 25px 0;
-    background: white;
-    white-space: nowrap;
-    position: relative;
-
-}
-.logos::before{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 250px;
-    height: 100%;
-
-}
-.logos:hover .logos-slide{
-    animation-play-state:paused;
-}
-
-.logos-slide{
-    display: inline-block;
-     animation: 40s slide infinite linear;
-}
-.logos-slide img{
-    
-    margin:0 40px ;
-}@keyframes slide{
-    from{
-        transform: translateX(0);
-    }
-    to{
-        transform: translateX(-100%);
-    }
- }
-.logos{
-    overflow: hidden;
-    padding: 25px 0;
-    background: white;
-    white-space: nowrap;
-    position: relative;
-
-}
-.logos::before{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 250px;
-    height: 100%;
-
-}
-.logos:hover .logos-slide{
-    animation-play-state:paused;
-}
-
-.logos-slide{
-    display: inline-block;
-     animation: 40s slide infinite linear;
-}
-.logos-slide img{
-    
-    margin:0 40px ;
-}@keyframes slide{
-    from{
-        transform: translateX(0);
-    }
-    to{
-        transform: translateX(-100%);
-    }
- }
-.logos{
-    overflow: hidden;
-    padding: 25px 0;
-    background: white;
-    white-space: nowrap;
-    position: relative;
-
-}
-.logos::before{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 250px;
-    height: 100%;
-
-}
-.logos:hover .logos-slide{
-    animation-play-state:paused;
-}
-
-.logos-slide{
-    display: inline-block;
-     animation: 40s slide infinite linear;
-}
-.logos-slide img{
-    
-    margin:0 40px ;
-}@keyframes slide{
-    from{
-        transform: translateX(0);
-    }
-    to{
-        transform: translateX(-100%);
-    }
- }
-.logos{
-    overflow: hidden;
-    padding: 25px 0;
-    background: white;
-    white-space: nowrap;
-    position: relative;
-
-}
-.logos::before{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 250px;
-    height: 100%;
-
-}
-.logos:hover .logos-slide{
-    animation-play-state:paused;
-}
-
-.logos-slide{
-    display: inline-block;
-     animation: 40s slide infinite linear;
-}
-.logos-slide img{
-    
-    margin:0 40px ;
-}@keyframes slide{
+  
+  
+/* logo slide show */
+ @keyframes slide{
     from{
         transform: translateX(0);
     }
