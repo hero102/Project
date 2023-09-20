@@ -276,15 +276,31 @@ h6,
      animation: slides;
   }
   .media-slide img{
-    
-    margin:0 80px ;
+   padding: 0 100px;
 }
-.map-logo img{
-    margin:0 80px ;
-    margin-bottom: 10%;
+/* maplogo */
+  .maa img{
+     margin: 0 120px;
+  }
+.cover{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    margin-top: 10%;
+
+
+}
+.cover1{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    margin-top: -5%;
+
 }
 
-  
+ 
   
 /* logo slide show */
  @keyframes slide{
