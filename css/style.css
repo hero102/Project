@@ -277,36 +277,10 @@ h6,
     grid-template-columns: 5fr 5fr 3fr;
     column-gap: 50px;
   }
-<<<<<<< HEAD
-  .media-slide img{
-   padding: 0 100px;
-}
-/* maplogo */
-  .maa img{
-     margin: 0 120px;
-  }
-.cover{
-    width: 900px;
-    height: 400px;
-    display: flex;
-    text-align: center;
-    margin-top: 10%;
-
-
-}
-.cover1{
-    width: 900px;
-    height: 400px;
-    display: flex;
-    text-align: center;
-    margin-top: -5%;
-
-=======
 
 .map-logo img{
     margin:0 80px ;
     
->>>>>>> e3e0f4485cecf2bd05114ea5e23012ce60e70e13
 }
 
  
