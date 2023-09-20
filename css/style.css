@@ -272,9 +272,12 @@ h6,
   }
    
   .media-slide{
-    display: inline-block;
-     animation: slides;
+    /* display: inline-block; */
+    display: grid;
+    grid-template-columns: 5fr 5fr 3fr;
+    column-gap: 50px;
   }
+<<<<<<< HEAD
   .media-slide img{
    padding: 0 100px;
 }
@@ -298,6 +301,12 @@ h6,
     text-align: center;
     margin-top: -5%;
 
+=======
+
+.map-logo img{
+    margin:0 80px ;
+    
+>>>>>>> e3e0f4485cecf2bd05114ea5e23012ce60e70e13
 }
 
  
