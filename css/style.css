@@ -272,16 +272,15 @@ h6,
   }
    
   .media-slide{
-    display: inline-block;
-     animation: slides;
+    /* display: inline-block; */
+    display: grid;
+    grid-template-columns: 5fr 5fr 3fr;
+    column-gap: 50px;
   }
-  .media-slide img{
-    
-    margin:0 80px ;
-}
+
 .map-logo img{
     margin:0 80px ;
-    margin-bottom: 10%;
+    
 }
 
   
